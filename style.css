@@ -1,14 +1,17 @@
 
 body {
     margin: 0;
-    background-color: #111;
-    color: #4fffea;
     font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #00ffcc;
     text-align: center;
 }
 canvas {
-    background-color: #1e1e1e;
+    background-color: #083d13;
     display: block;
     margin: 20px auto;
-    border: 2px solid #4fffea;
+    border: 3px solid #00ffcc;
+}
+#score {
+    font-size: 18px;
 }
