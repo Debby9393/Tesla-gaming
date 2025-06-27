@@ -1,17 +1,29 @@
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #00ffcc;
-    text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #00ffcc;
+  text-align: center;
 }
 canvas {
-    background-color: #083d13;
-    display: block;
-    margin: 20px auto;
-    border: 3px solid #00ffcc;
+  background-color: #083d13;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #00ffcc;
 }
 #score {
-    font-size: 18px;
+  font-size: 18px;
+}
+.controls {
+  margin-top: 10px;
+}
+button {
+  font-size: 24px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background: #00ffcc;
+  color: #000;
+  border: none;
+  border-radius: 8px;
 }
